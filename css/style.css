@@ -1,0 +1,72 @@
+
+.body{
+	min-height: 100%;
+	height: 100%;
+	max-height: 100%;
+}
+
+.banner{
+	
+	height: 500%;
+	
+	background-color: #32587a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+
+}
+
+.card-img-top{
+
+	width: 300px;
+	height: 300px;
+}
+
+.h1{
+	color: white;
+
+
+
+}
+
+.cover{
+	color: white;
+	height: 120px;
+	background-color: #32587a;
+}
+
+.card{
+	height: ;
+	background-image: url(/img/Analisis detallado.png);
+}
+
+.login{
+	min-height: 50%;
+	height: 50%;
+	max-height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn bnt-danger{
+	align-items: flex-end;
+}
+
+
+
+
+
+/**
+ * archivos descarga les
+ */
+.contenido_descargable a{
+		font-weight: bolder;
+		color: #666;
+	}
+
+.contenido_descargable a:hover{
+		color: #0ED4CD;
+		cursor: pointer;
+	}

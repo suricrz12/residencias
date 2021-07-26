@@ -1,0 +1,16 @@
+<?php
+
+	include('../conexion.php');
+
+	$consulta = $db->query("SELECT id, email FROM usuarios WHERE rango != 1 AND status = 1");
+
+	$usuarios = array();
+
+	while ($usu = mysqli_fetch_array($consulta)) {
+		array_push($usuarios, array('email' =>  $usu['email'].', ID_USER:'.$usu['id']));
+	}
+
+	echo json_encode($usuarios);
+
+	mysqli_close($db);
+?>
